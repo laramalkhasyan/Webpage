@@ -84,7 +84,27 @@ input{
     float:right;
 }
 img{
-    margin-left: 120px;
- 
+    margin-left: 120px; 
     width: 600px;
 }
+
+.welcome{
+    background-color: #F3F3F3;
+    text-align: center;
+    align-content: center;
+}
+.container-2{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.messege{
+    justify-content: center;
+}
+.w-m {
+    padding-top: 100px;
+    width: 540px;
+ 
+}
+
+
