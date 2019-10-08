@@ -1,10 +1,90 @@
-nav{
-    align-content: center;
+
+nav{   
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 60%;  
+    height: 100px;
+    align-content: center;
+    display: inline-block; 
+    justify-content: center;   
 }
 
+
+.name{   
+    width: 100px;
+    margin-left: 350px;
+    margin-right: 20px;
+    margin-top:40px;
+    padding: 0px; 
+    float: left; 
+    
+}
+
+
 li{
-    display: inline;
+    padding: 0px;
+    margin: 20px;
+    float: right;   
     list-style: none;
+}
+
+
+.trending-news{
+    margin-left: 350px;
+    margin-top: 100px;
+    height: 500px;
+    display:flex;
+}
+.give-email{
+    width: 450px;
+    letter-spacing: 1px;
+    float: left;
+}
+h4{
+    font-size: 16px;
+    color:#4285f4;
+    text-transform: uppercase;
+
+}
+h2{
+    font-size: 40px;
+    color: #364655;
+    line-height: 1.3;
+}
+p{
+    font-size: 16px;
+    color: #959597;
+    padding-bottom: 20px;
+}
+
+.small{
+    font-size: 12px;
+    color: #959597
+}
+
+input{
+    border:0;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.text{
+    background-color: #F3F3F3;
+    padding: 15px 100px 15px 15px;
+}
+.button{
+    color: white;
+    background-color: #4285f4;
+    margin-left: -35px;
+    padding:15px 25px;
+    position: relative;
+    cursor: pointer;
+}
+.web-img{
+    float:right;
+}
+img{
+    margin-left: 120px;
+ 
+    width: 600px;
 }
